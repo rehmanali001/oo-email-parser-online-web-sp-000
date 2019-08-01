@@ -17,3 +17,4 @@ class EmailAddressParser
       @emails.uniq
     end
   end
+end
