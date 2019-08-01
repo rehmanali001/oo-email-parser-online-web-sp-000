@@ -9,7 +9,7 @@ class EmailAddressParser
   end
   
   def parse
-    if @emails.include?(',')
+   if @emails.include?(',')
       @emails = @emails.split(' ').collect{ |e| e.chomp(',') }
       @emails.uniq
     else
